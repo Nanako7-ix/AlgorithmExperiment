@@ -1,11 +1,1 @@
-BurteForce sample_4a 1.826
-BurteForce le450_5a Time Limit Exceed
-BurteForce le450_15b Time Limit Exceed
-BurteForce le450_25a Time Limit Exceed
-Selective sample_4a 0.02
-Selective le450_5a Time Limit Exceed
-Selective le450_15b Time Limit Exceed
-Selective le450_25a Time Limit Exceed
-DegreeOpt sample_4a 0.023
-DegreeOpt le450_5a Time Limit Exceed
-DegreeOpt le450_15b Time Limit Exceed
+BurteForce sample_4a 
