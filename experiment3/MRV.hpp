@@ -1,7 +1,7 @@
 #pragma once
 #include <bits/stdc++.h>
 
-int MRV_ForwardCheck(const int n, const std::vector<std::vector<int>>& adj, const int count) {
+int MRV(const int n, const std::vector<std::vector<int>>& adj, const int count) {
     std::vector<int> col(n + 1), deg(n + 1);
     std::vector<std::bitset<30>> colors_set(n + 1);
     std::vector<std::vector<int>> cnt(n + 1, std::vector<int>(count + 1));

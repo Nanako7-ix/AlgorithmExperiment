@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 
 auto parse(const std::string& input) {
-    std::fstream fin("./data/" + input);
+    std::fstream fin("./data/" + input + ".col");
     int n, m;
     while (true) {
         std::string line;
@@ -22,6 +22,6 @@ auto parse(const std::string& input) {
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
-
+    std::cerr << "Parse done\n";
     return std::tuple {n, adj};
 }
