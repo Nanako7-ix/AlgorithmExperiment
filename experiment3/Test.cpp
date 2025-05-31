@@ -41,7 +41,7 @@ int main(int argc, char* argv[]) {
     algoFunc(n, adj, count);
     std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();
     double runningTime = std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count() / 1000.0;
-    std::cerr << "Running Time: " << std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count() / 1000.0 << " ms\n";
-    std::cout << runningTime << "\n\n";
+    std::cerr << "Running Time: " << std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count() / 1000.0 << " ms\n\n";
+    std::cout << runningTime << "\n";
     return 0;
 }
