@@ -23,6 +23,7 @@ int BurteForce(const int n, const std::vector<std::vector<int>>& adj, const int 
         for (int c = 1; c <= count; ++c) {
             col[i] = c;
             dfs(i + 1);
+            if (ans != 0) return;
         }
         col[i] = 0;
     } (1);

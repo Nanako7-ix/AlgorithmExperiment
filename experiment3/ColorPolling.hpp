@@ -44,7 +44,10 @@ auto ColorPolling(const int n, const std::vector<std::vector<int>>& adj, const i
                     ok = 0;
                 }
             }
-            if (ok) dfs(i + 1, used_colors | std::bitset<30>(1 << c));
+            if (ok) {
+                dfs(i + 1, used_colors | std::bitset<30>(1 << c));
+                if (ans != 0) return;
+            }
             for (auto v : adj[u]) {
                 cnt[v][c]--;
                 if (cnt[v][c] == 0) {

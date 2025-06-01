@@ -44,7 +44,10 @@ int MRV(const int n, const std::vector<std::vector<int>>& adj, const int count) 
                     ok = 0;
                 }
             }
-            if (ok) dfs(i + 1);
+            if (ok) {
+                dfs(i + 1);
+                if (ans != 0) return;
+            }
             for (auto v : adj[u]) {
                 cnt[v][c]--;
                 if (cnt[v][c] == 0) {
