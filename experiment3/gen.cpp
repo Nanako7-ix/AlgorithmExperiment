@@ -1,4 +1,3 @@
-#pragma once
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -97,7 +96,7 @@ int main (int argc, char *argv[]) {
     sort(edges.begin(), edges.end());
     edges.erase(unique(edges.begin(), edges.end()), edges.end());
 
-    cout << "p edge" << n << ' ' << edges.size() << "\n";
+    cout << "p edge " << n << ' ' << edges.size() << "\n";
     for (auto [u, v] : edges) {
         cout << "e " << u << ' ' << v << "\n";
     }

@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
 #include "Parse.hpp"
-#include "BurteForce.hpp"
-#include "Selective.hpp"
-#include "DegreeOpt.hpp"
-#include "ForwardCheck.hpp"
-#include "MRV.hpp"
-#include "ColorPolling.hpp"
+#include "./solveAlgo/BurteForce.hpp"
+#include "./solveAlgo/Selective.hpp"
+#include "./solveAlgo/DegreeOpt.hpp"
+#include "./solveAlgo/ForwardCheck.hpp"
+#include "./solveAlgo/MRV.hpp"
+#include "./solveAlgo/ColorPolling.hpp"
 
 std::map<std::string, int> cnt {
     {"sample_4a", 4},
