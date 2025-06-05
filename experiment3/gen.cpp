@@ -49,8 +49,12 @@ int genNumber(int l, int r) {
 
 // Generate a 2D connected graph
 int main (int argc, char *argv[]) {
-    freopen("graph.col", "w", stdout);
-    assert(argc == 2);
+    freopen("./data/gen.col", "w", stdout);
+    if (argc != 2) {
+        cerr << "Usage: " << argv[0] << " <n>\n";
+        cerr << "n >= 4\n";
+        return 1;
+    }
     int n = atoi(argv[1]);
     assert(n >= 4);
 
