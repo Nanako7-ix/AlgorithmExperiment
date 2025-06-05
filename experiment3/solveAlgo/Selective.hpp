@@ -1,7 +1,8 @@
 #pragma once
 #include <bits/stdc++.h>
 
-int Selective(const int n, const std::vector<std::vector<int>>& adj, const int count) {
+int Selective(const int n, const std::vector<std::vector<int>>& adj, const int count,
+              const bool find_first = false) {
     std::vector<int> col(n + 1);
     auto check = [&](int u, int c) -> bool {
         for (auto v : adj[u]) {

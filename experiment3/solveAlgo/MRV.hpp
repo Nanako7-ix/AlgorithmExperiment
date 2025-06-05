@@ -1,7 +1,8 @@
 #pragma once
 #include <bits/stdc++.h>
 
-auto ColorPolling(const int n, const std::vector<std::vector<int>>& adj, const int count) {
+int MRV(const int n, const std::vector<std::vector<int>>& adj, const int count,
+          const bool find_first = false) {
     std::vector<int> col(n + 1), deg(n + 1);
     std::vector<std::bitset<30>> colors_set(n + 1);
     std::vector<std::vector<int>> cnt(n + 1, std::vector<int>(count + 1));
@@ -18,9 +19,9 @@ auto ColorPolling(const int n, const std::vector<std::vector<int>>& adj, const i
     });
 
     int ans = 0;
-    [&](this auto&& dfs, int i, std::bitset<30> used_colors) -> void {
+    [&](this auto&& dfs, int i) -> void {
         if (i == n + 1) {
-            ans += used_colors.count();
+            ans++;
             return;
         }
 
@@ -45,7 +46,7 @@ auto ColorPolling(const int n, const std::vector<std::vector<int>>& adj, const i
                 }
             }
             if (ok) {
-                dfs(i + 1, used_colors | std::bitset<30>(1 << c));
+                dfs(i + 1);
                 if (ans != 0) return;
             }
             for (auto v : adj[u]) {
@@ -56,7 +57,7 @@ auto ColorPolling(const int n, const std::vector<std::vector<int>>& adj, const i
             }
             col[u] = 0;
         }
-    } (1, {});
+    } (1);
 
     return ans;
 }

@@ -1,7 +1,8 @@
 #pragma once
 #include <bits/stdc++.h>
 
-int BurteForce(const int n, const std::vector<std::vector<int>>& adj, const int count) {
+int BurteForce(const int n, const std::vector<std::vector<int>>& adj, const int count,
+               const bool find_first = false) {
     std::vector<int> col(n + 1);
     auto check = [&]() -> bool {
         for (int u = 1; u <= n; ++u) {
@@ -23,7 +24,7 @@ int BurteForce(const int n, const std::vector<std::vector<int>>& adj, const int 
         for (int c = 1; c <= count; ++c) {
             col[i] = c;
             dfs(i + 1);
-            if (ans != 0) return;
+            if (find_first && ans != 0) return;
         }
         col[i] = 0;
     } (1);

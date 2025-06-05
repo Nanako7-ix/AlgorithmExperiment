@@ -1,7 +1,8 @@
 #pragma once
 #include <bits/stdc++.h>
 
-int DegreeOpt(const int n, const std::vector<std::vector<int>>& adj, const int count) {
+int DegreeOpt(const int n, const std::vector<std::vector<int>>& adj, const int count,
+              const bool find_first = false) {
     std::vector<int> col(n + 1), deg(n + 1);
 
     auto check = [&](int u, int c) -> bool {
