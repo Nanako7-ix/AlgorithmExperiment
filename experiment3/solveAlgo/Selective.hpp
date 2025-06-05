@@ -23,7 +23,7 @@ int Selective(const int n, const std::vector<std::vector<int>>& adj, const int c
             if (!check(i, c)) continue;
             col[i] = c;
             dfs(i + 1);
-            if (ans != 0) return;
+            if (find_first && ans != 0) return;
         }
         col[i] = 0;
     } (1);
