@@ -12,26 +12,26 @@ mkdir -p logs
 > output.log
 
 # 任务1: 测试找出所有解的时间 (find_first=0)
-echo "测试所有解的时间 (find_first=0)" >> output.log
-for algo in "${algorithms[@]}"; do
-    for map in "${maps[@]}"; do
-        echo "Running $algo on $map..."
+# echo "测试所有解的时间 (find_first=0)" >> output.log
+# for algo in "${algorithms[@]}"; do
+#     for map in "${maps[@]}"; do
+#         echo "Running $algo on $map..."
 
-        OUTPUT="logs/${algo}_${map}.out"
+#         OUTPUT="logs/${algo}_${map}.out"
 
-        timeout $TIME_LIMIT ./Test "$map" "$algo" 0 > "$OUTPUT"
-        STATUS=$?
+#         timeout $TIME_LIMIT ./Test "$map" "$algo" 0 > "$OUTPUT"
+#         STATUS=$?
 
-        if [ $STATUS -eq 124 ]; then
-            echo "$algo $map TLE" >> output.log
-        elif [ $STATUS -ne 0 ]; then
-            echo "$algo $map RE" >> output.log
-        else
-            LAST_LINE=$(tail -n 1 "$OUTPUT")
-            echo "$algo $map $LAST_LINE" >> output.log
-        fi
-    done
-done
+#         if [ $STATUS -eq 124 ]; then
+#             echo "$algo $map TLE" >> output.log
+#         elif [ $STATUS -ne 0 ]; then
+#             echo "$algo $map RE" >> output.log
+#         else
+#             LAST_LINE=$(tail -n 1 "$OUTPUT")
+#             echo "$algo $map $LAST_LINE" >> output.log
+#         fi
+#     done
+# done
 
 # 任务2: 测试找出第一个解的时间 (find_first=1)
 for algo in "${algorithms[@]}"; do
