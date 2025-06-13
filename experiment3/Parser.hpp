@@ -22,6 +22,7 @@ auto parse(const std::string& input) {
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
+    fin.close();
     std::cerr << "Parse done\n";
     return std::tuple {n, adj};
 }

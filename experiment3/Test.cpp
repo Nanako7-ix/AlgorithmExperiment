@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "Parse.hpp"
+#include "Parser.hpp"
 #include "./solveAlgo/BurteForce.hpp"
 #include "./solveAlgo/Selective.hpp"
 #include "./solveAlgo/DegreeOpt.hpp"
@@ -26,7 +26,7 @@ std::map<std::string, int (*)(const int, const std::vector<std::vector<int>>&, c
 
 int main(int argc, char* argv[]) {
     if (argc != 4) {
-        std::cerr << "Usage: " << argv[0] << " <FileName> <Algorithm> <find_first>\n";
+        std::cerr << "Usage: <FileName> <Algorithm> <find_first>\n";
         return 1;
     }
 

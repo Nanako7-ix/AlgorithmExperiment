@@ -1,4 +1,5 @@
 #!/bin/bash
+cd "$(dirname "$0")"
 ulimit -s unlimited
 
 g++ -O2 -std=c++23 -o Test Test.cpp
