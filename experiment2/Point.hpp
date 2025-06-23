@@ -1,5 +1,5 @@
-#ifndef POINT_HPP
-#define POINT_HPP
+#pragma once
+#include <bits/stdc++.h>
 
 using i64 = long long;
 struct Point {
@@ -13,6 +13,8 @@ struct Point {
     }
 };
 
+constexpr double inf = 4E18;
+
 double distance(Point p1, Point p2) {
     return std::hypot(p1.x - p2.x, p1.y - p2.y);
 }
@@ -24,5 +26,3 @@ bool Comp_X(Point p1, Point p2) {
 bool Comp_Y(Point p1, Point p2) {
     return p1.y < p2.y;
 }
-
-#endif

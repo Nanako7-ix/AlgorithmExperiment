@@ -1,72 +1,72 @@
 small BurteForce
 Running Time: 0.005 ms
 small SegmentTreeDivide
-Running Time: 0.007 ms
+Running Time: 0.008 ms
 small DSUMaintainEDCC
 Running Time: 0.003 ms
 small Tarjan
 Running Time: 0.003 ms
 
 medium BurteForce
-Running Time: 0.095 ms
+Running Time: 0.093 ms
 medium SegmentTreeDivide
-Running Time: 0.048 ms
+Running Time: 0.045 ms
 medium DSUMaintainEDCC
 Running Time: 0.012 ms
 medium Tarjan
-Running Time: 0.01 ms
+Running Time: 0.009 ms
 
 large BurteForce
 TLE
 large SegmentTreeDivide
-Running Time: 5604.46 ms
+Running Time: 4219.84 ms
 large DSUMaintainEDCC
-Running Time: 1555.7 ms
+Running Time: 1006.02 ms
 large Tarjan
-Running Time: 1406 ms
+Running Time: 941.51 ms
 
 1000000 BurteForce
 TLE
 1000000 SegmentTreeDivide
-Running Time: 3266.59 ms
+Running Time: 2462.43 ms
 1000000 DSUMaintainEDCC
-Running Time: 1409.37 ms
+Running Time: 877.754 ms
 1000000 Tarjan
-Running Time: 1215.48 ms
+Running Time: 786.263 ms
 
 2000000 BurteForce
 TLE
 2000000 SegmentTreeDivide
-Running Time: 7639.57 ms
+Running Time: 5207.4 ms
 2000000 DSUMaintainEDCC
-Running Time: 3105.36 ms
+Running Time: 1996.98 ms
 2000000 Tarjan
-Running Time: 2609.72 ms
+Running Time: 1741.57 ms
 
 3000000 BurteForce
 TLE
 3000000 SegmentTreeDivide
-TLE
+Running Time: 8766.43 ms
 3000000 DSUMaintainEDCC
-Running Time: 4887.3 ms
+Running Time: 3205.37 ms
 3000000 Tarjan
-Running Time: 4633.31 ms
+Running Time: 2746.37 ms
 
 4000000 BurteForce
 TLE
 4000000 SegmentTreeDivide
-TLE
+Running Time: 11879.8 ms
 4000000 DSUMaintainEDCC
-Running Time: 7988.15 ms
+Running Time: 4530.42 ms
 4000000 Tarjan
-Running Time: 6385.77 ms
+Running Time: 3812.74 ms
 
 5000000 BurteForce
 TLE
 5000000 SegmentTreeDivide
-TLE
+Running Time: 16646.1 ms
 5000000 DSUMaintainEDCC
-TLE
+Running Time: 5823.15 ms
 5000000 Tarjan
-TLE
+Running Time: 4833.69 ms
 

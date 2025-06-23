@@ -1,0 +1,70 @@
+100000 BurteForce
+Running Time: 47702.3 ms
+100000 Divide
+Running Time: 22.259 ms
+100000 ScanningSet
+Running Time: 10.47 ms
+
+200000 BurteForce
+Running Time: 191057 ms
+200000 Divide
+Running Time: 46.127 ms
+200000 ScanningSet
+Running Time: 20.417 ms
+
+300000 BurteForce
+Running Time: 427311 ms
+300000 Divide
+Running Time: 72.959 ms
+300000 ScanningSet
+Running Time: 31.334 ms
+
+400000 BurteForce
+Running Time: 763931 ms
+400000 Divide
+Running Time: 95.112 ms
+400000 ScanningSet
+Running Time: 39.186 ms
+
+500000 BurteForce
+Running Time: 1.19424e+06 ms
+500000 Divide
+Running Time: 127.315 ms
+500000 ScanningSet
+Running Time: 50.275 ms
+
+600000 BurteForce
+TLE
+600000 Divide
+Running Time: 153.304 ms
+600000 ScanningSet
+Running Time: 64.672 ms
+
+700000 BurteForce
+TLE
+700000 Divide
+Running Time: 178.772 ms
+700000 ScanningSet
+Running Time: 78.916 ms
+
+800000 BurteForce
+TLE
+800000 Divide
+Running Time: 199.443 ms
+800000 ScanningSet
+Running Time: 87.198 ms
+
+900000 BurteForce
+TLE
+900000 Divide
+Running Time: 229.78 ms
+900000 ScanningSet
+Running Time: 98.119 ms
+
+1000000 BurteForce
+TLE
+1000000 Divide
+Running Time: 265.311 ms
+1000000 ScanningSet
+Running Time: 112.192 ms
+

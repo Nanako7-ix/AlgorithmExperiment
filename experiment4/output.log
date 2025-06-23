@@ -1,0 +1,136 @@
+All tests passed!
+Algorithm: Basic
+Range: [501, 600] + [501, 600]
+Time: 53.7955 ms
+Algorithm: Basic
+Range: [601, 700] + [601, 700]
+Time: 84.951 ms
+Algorithm: Basic
+Range: [701, 800] + [701, 800]
+Time: 130.966 ms
+Algorithm: Basic
+Range: [801, 900] + [801, 900]
+Time: 190.381 ms
+Algorithm: Basic
+Range: [901, 1000] + [901, 1000]
+Time: 262.239 ms
+Algorithm: Basic
+Range: [1001, 1100] + [1001, 1100]
+Time: 354.405 ms
+Algorithm: Basic
+Range: [1101, 1200] + [1101, 1200]
+Time: 467.735 ms
+Algorithm: Basic
+Range: [1201, 1300] + [1201, 1300]
+Time: 594.309 ms
+Algorithm: Basic
+Range: [1301, 1400] + [1301, 1400]
+Time: 748.671 ms
+Algorithm: Basic
+Range: [1401, 1500] + [1401, 1500]
+Time: 935.078 ms
+Algorithm: Basic_Limit
+Range: [12, 12] + [5001, 6000]
+Time: 102.169 ms
+Algorithm: Basic_Limit
+Range: [12, 12] + [6001, 7000]
+Time: 139.784 ms
+Algorithm: Basic_Limit
+Range: [12, 12] + [7001, 8000]
+Time: 190.19 ms
+Algorithm: Basic_Limit
+Range: [12, 13] + [8001, 9000]
+Time: 233.181 ms
+Algorithm: Basic_Limit
+Range: [13, 13] + [9001, 10000]
+Time: 327.216 ms
+Algorithm: Basic_Limit
+Range: [13, 13] + [10001, 11000]
+Time: 396.449 ms
+Algorithm: Basic_Limit
+Range: [13, 13] + [11001, 12000]
+Time: 482.23 ms
+Algorithm: Basic_Limit
+Range: [13, 13] + [12001, 13000]
+Time: 576.796 ms
+Algorithm: Basic_Limit
+Range: [13, 13] + [13001, 14000]
+Time: 676.428 ms
+Algorithm: Basic_Limit
+Range: [13, 13] + [14001, 15000]
+Time: 786.674 ms
+Algorithm: Basic_Limit_BinarySearch
+Range: [16, 17] + [100001, 200000]
+Time: 50.8921 ms
+Algorithm: Basic_Limit_BinarySearch
+Range: [17, 18] + [200001, 300000]
+Time: 77.8032 ms
+Algorithm: Basic_Limit_BinarySearch
+Range: [18, 18] + [300001, 400000]
+Time: 157.118 ms
+Algorithm: Basic_Limit_BinarySearch
+Range: [18, 18] + [400001, 500000]
+Time: 201.087 ms
+Algorithm: Basic_Limit_BinarySearch
+Range: [18, 19] + [500001, 600000]
+Time: 217.196 ms
+Algorithm: Basic_Limit_BinarySearch
+Range: [19, 19] + [600001, 700000]
+Time: 316.826 ms
+Algorithm: Basic_Limit_BinarySearch
+Range: [19, 19] + [700001, 800000]
+Time: 364.935 ms
+Algorithm: Basic_Limit_BinarySearch
+Range: [19, 19] + [800001, 900000]
+Time: 408.617 ms
+Algorithm: Basic_Limit_BinarySearch
+Range: [19, 19] + [900001, 1000000]
+Time: 464.356 ms
+Algorithm: NewDP
+Range: [2, 2] + [1000000000000000001, 2000000000000000000]
+Time: 2998.98 ms
+Algorithm: NewDP
+Range: [2, 2] + [2000000000000000001, 3000000000000000000]
+Time: 3837.77 ms
+Algorithm: NewDP
+Range: [2, 2] + [3000000000000000001, 4000000000000000000]
+Time: 4624.62 ms
+Algorithm: NewDP
+Range: [2, 2] + [4000000000000000001, 5000000000000000000]
+Time: 5198.89 ms
+Algorithm: NewDP
+Range: [2, 2] + [5000000000000000001, 6000000000000000000]
+Time: 5827.24 ms
+Algorithm: NewDP
+Range: [2, 2] + [6000000000000000001, 7000000000000000000]
+Time: 6285.88 ms
+Algorithm: NewDP
+Range: [2, 2] + [7000000000000000001, 8000000000000000000]
+Time: 6779.96 ms
+Algorithm: NewDP
+Range: [2, 2] + [8000000000000000001, 9000000000000000000]
+Time: 7232.65 ms
+Algorithm: NewDP
+Range: [3, 3] + [1000000000000000001, 2000000000000000000]
+Time: 3.69312 ms
+Algorithm: NewDP
+Range: [3, 3] + [2000000000000000001, 3000000000000000000]
+Time: 4.29288 ms
+Algorithm: NewDP
+Range: [3, 3] + [3000000000000000001, 4000000000000000000]
+Time: 4.83834 ms
+Algorithm: NewDP
+Range: [3, 3] + [4000000000000000001, 5000000000000000000]
+Time: 5.29162 ms
+Algorithm: NewDP
+Range: [3, 3] + [5000000000000000001, 6000000000000000000]
+Time: 5.60256 ms
+Algorithm: NewDP
+Range: [3, 3] + [6000000000000000001, 7000000000000000000]
+Time: 5.99778 ms
+Algorithm: NewDP
+Range: [3, 3] + [7000000000000000001, 8000000000000000000]
+Time: 6.21636 ms
+Algorithm: NewDP
+Range: [3, 3] + [8000000000000000001, 9000000000000000000]
+Time: 6.48618 ms
