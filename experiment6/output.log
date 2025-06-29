@@ -1,0 +1,91 @@
+Atlanta EK
+Max Flow: 1
+Running Time: 0.151 ms
+Atlanta Dinic
+Max Flow: 1
+Running Time: 0.085 ms
+
+Montreal EK
+Max Flow: 3
+Running Time: 0.105 ms
+Montreal Dinic
+Max Flow: 3
+Running Time: 0.098 ms
+
+NewYork EK
+Max Flow: 4
+Running Time: 0.084 ms
+NewYork Dinic
+Max Flow: 4
+Running Time: 0.071 ms
+
+Philly EK
+Max Flow: 6
+Running Time: 0.102 ms
+Philly Dinic
+Max Flow: 6
+Running Time: 0.094 ms
+
+<n = 100> EK
+Max Flow: 361473276344
+Running Time: 831.85 ms
+<n = 100> Dinic
+Max Flow: 361473276344
+Running Time: 43.912 ms
+
+<n = 200> EK
+Max Flow: 718057010691
+Running Time: 7039.25 ms
+<n = 200> Dinic
+Max Flow: 718057010691
+Running Time: 173.792 ms
+
+<n = 300> EK
+Max Flow: 1091151237814
+Running Time: 20368.7 ms
+<n = 300> Dinic
+Max Flow: 1091151237814
+Running Time: 390.508 ms
+
+<n = 400> EK
+Max Flow: 1377718318182
+Running Time: 49969.4 ms
+<n = 400> Dinic
+Max Flow: 1377718318182
+Running Time: 676.28 ms
+
+<n = 500> EK
+Max Flow: 1790140960989
+Running Time: 98236 ms
+<n = 500> Dinic
+Max Flow: 1790140960989
+Running Time: 1061.05 ms
+
+<n = 600> EK
+Max Flow: 2138405633015
+Running Time: 177289 ms
+<n = 600> Dinic
+Max Flow: 2138405633015
+Running Time: 1558.07 ms
+
+<n = 700> EK
+Max Flow: 2526587166502
+Running Time: 345396 ms
+<n = 700> Dinic
+Max Flow: 2526587166502
+Running Time: 2139.1 ms
+
+<n = 800> EK
+Max Flow: 2834126170420
+Running Time: 492884 ms
+<n = 800> Dinic
+Max Flow: 2834126170420
+Running Time: 2727.29 ms
+
+<n = 900> EK
+Max Flow: 3207027278772
+Running Time: 598667 ms
+<n = 900> Dinic
+Max Flow: 3207027278772
+Running Time: 3508.17 ms
+
